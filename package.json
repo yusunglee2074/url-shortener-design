@@ -4,6 +4,11 @@
   "description": "네이버의 단축 URL 서비스와 유사한 고성능, 고가용성 URL 단축 서비스를 설계합니다.",
   "main": "index.js",
   "scripts": {
+    "dev:read": "nodemon src/read.ts",
+    "dev:write": "nodemon src/write.ts",
+    "build": "tsc",
+    "start:read": "node dist/read.js",
+    "start:write": "node dist/write.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
